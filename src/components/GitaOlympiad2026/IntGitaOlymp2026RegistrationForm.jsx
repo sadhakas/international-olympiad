@@ -97,7 +97,7 @@ export default function RegistrationForm() {
           <h3 className="text-lg font-semibold text-gray-800 mb-3">Next Crucial Step</h3>
           <p className="text-sm text-gray-600 mb-4">Join our official WhatsApp group for all event updates.</p>
           <a 
-            href="https://chat.whatsapp.com/YOUR_PLACEHOLDER_LINK" 
+            href="https://chat.whatsapp.com/JiKASFpwAitIcrpVf6t4tb" 
             target="_blank" 
             rel="noreferrer"
             className="inline-block w-full bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-4 rounded transition duration-200"
@@ -155,11 +155,11 @@ export default function RegistrationForm() {
           <div className="space-y-2">
             <label className="flex items-center space-x-3 cursor-pointer">
               <input type="radio" name="paymentPlan" value="100" checked={formData.paymentPlan === '100'} onChange={handleInputChange} className="h-4 w-4 text-blue-600 focus:ring-blue-500" />
-              <span className="text-gray-700">Registration Only (₹100)</span>
+              <span className="text-gray-700">Registration (₹100) + Live Sessions Included</span>
             </label>
             <label className="flex items-center space-x-3 cursor-pointer">
               <input type="radio" name="paymentPlan" value="300" checked={formData.paymentPlan === '300'} onChange={handleInputChange} className="h-4 w-4 text-blue-600 focus:ring-blue-500" />
-              <span className="text-gray-700">Registration + Hard Copy of Gita As It Is (₹300)</span>
+              <span className="text-gray-700">Registration + Hard Copy of Gita As It Is (₹300)+ Live Sessions Included</span>
             </label>
           </div>
         </div>

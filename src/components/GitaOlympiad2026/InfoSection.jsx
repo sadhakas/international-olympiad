@@ -40,7 +40,7 @@ export default function InfoSection() {
         
         {/* WhatsApp Button */}
         <a 
-          href="https://chat.whatsapp.com/YOUR_PLACEHOLDER_LINK" 
+          href="https://chat.whatsapp.com/JiKASFpwAitIcrpVf6t4tb" 
           target="_blank" 
           rel="noreferrer"
           className="inline-flex items-center justify-center bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-2.5 px-6 rounded-full shadow-md transition duration-200 mt-2"
